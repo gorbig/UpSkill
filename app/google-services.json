@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "295681135826",
+    "project_id": "upskilldb",
+    "storage_bucket": "upskilldb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295681135826:android:f8553b06d097376b5a890b",
+        "android_client_info": {
+          "package_name": "com.example.upskill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295681135826-o31oraalvkar0k1fkcggaktnj0795178.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.upskill",
+            "certificate_hash": "97a07c78df3422be496d332039a9a0afabd3f814"
+          }
+        },
+        {
+          "client_id": "295681135826-21baet1v67j8r6cd4pikfupd2444r0e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX-_lMAevb56QkYvOHCx3z3UXa_jC79sM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295681135826-21baet1v67j8r6cd4pikfupd2444r0e2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
