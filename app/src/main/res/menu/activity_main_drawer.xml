@@ -16,10 +16,15 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/calendarborder"
             android:title="@string/calendar" />
+    <item android:title="Account">
+
+        <menu>
 
         <item
-            android:id="@+id/nav_register"
+            android:id="@+id/nav_reg"
             android:icon="@drawable/calendarborder"
             android:title="@string/reg" />
+        </menu>
+    </item>
     </group>
 </menu>

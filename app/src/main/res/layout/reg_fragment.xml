@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.regFragment.RegFragment">
+    tools:context=".MainActivity">
 
     <include layout="@layout/toolbar"/>
 
@@ -56,11 +56,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/first_name"
+            android:text="First Name"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:textSize="18sp"
-            android:layout_marginStart="5dp" />
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp" />
 
 
         <TextView
@@ -68,8 +68,8 @@
             android:layout_height="wrap_content"
 
             android:text="@string/mickey"
-            android:layout_marginStart="25dp"
-            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:textSize="18dp"
             android:textColor="@color/lightgray"/>
 
 
@@ -209,14 +209,6 @@
             android:drawableLeft="@drawable/ic_moon"
             android:layout_marginLeft="-10dp"/>
 
-        <Button
-            android:id="@+id/buttonReg"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:text="Edit Profile"
-            android:paddingLeft="15dp"
-            android:layout_marginLeft="-10dp"
-            android:textAllCaps="false"/>
 
 
     </LinearLayout>

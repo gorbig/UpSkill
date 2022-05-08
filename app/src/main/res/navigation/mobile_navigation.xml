@@ -6,6 +6,11 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_reg"
+        android:name="com.example.upskill.ui.regFragment.RegFragment"
+        android:label="@string/menu_reg"
+        tools:layout="@layout/fragment_reg" />
+    <fragment
         android:id="@+id/nav_home"
         android:name="com.example.upskill.ui.home.HomeFragment"
         android:label="@string/menu_home"
